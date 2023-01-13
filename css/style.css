@@ -16,7 +16,8 @@ body{
     align-items: center;
     border: solid 1px red;
     width: 25%;
-    height: auto;
+    height: 40rem;
+    justify-content: space-between;
 }
 .img-hero{
     border-top-left-radius: 20px;
@@ -24,4 +25,29 @@ body{
 }
 .text-zone{
     text-align: center;
+}
+.plan{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10;
+}
+.btns{
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.btn-blue{
+    background-color: hsl(245, 75%, 52%);
+    width: 100%;
+    color: white;
+    border-radius: 8px;
 }
