@@ -28,9 +28,13 @@ body{
 .img-hero{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: 100%;
 }
 .text-zone{
     text-align: center;
+}
+p{
+    color: grey;
 }
 .plan{
     width: 80%;
