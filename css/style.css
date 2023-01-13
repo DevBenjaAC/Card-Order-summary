@@ -42,6 +42,7 @@ body{
     background-color:  hsl(225, 100%, 98%);
     border-radius: 10px;
     text-align: center;
+    padding:15px ;
 }
 .btns{
     width: 80%;
