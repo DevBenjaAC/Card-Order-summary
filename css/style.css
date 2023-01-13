@@ -1,3 +1,6 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
 body{
     margin-top: 10%;
     display: flex;
@@ -7,7 +10,6 @@ body{
     background-size:contain;
     background-color: hsl(225, 100%, 94%);
     font-size: 16px ;
-
 }
 .card{
     border-radius: 20px;
@@ -19,6 +21,10 @@ body{
     width: 25%;
     height: 40rem;
     justify-content: space-between;
+    transition: 600ms;
+}
+.card:hover{
+    transform: scale(1.05);
 }
 .img-hero{
     border-top-left-radius: 20px;
@@ -48,17 +54,29 @@ body{
     margin-bottom: 5px;
 }
 .btn-blue{
+    font-size: 16px;
     padding: 15px;
     background-color: hsl(245, 75%, 52%);
     width: 100%;
     color: white;
     border-radius: 8px;
     box-shadow: 3px 10px 10px hsl(223, 47%, 15%);
+    transition: 600ms;
+}
+.btn-blue:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
 .btn-white{
+    font-size: 16px;
     border: none;
     padding: 15px;
     background-color:white;
-    color: hsl(223, 47%, 23%);
+    color: grey;
     border-radius: 8px;
+    transition: 600ms;
+}
+.btn-white:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
