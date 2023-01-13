@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-size:contain;
     background-color: hsl(225, 100%, 94%);
+    font-size: 16px ;
 
 }
 .card{
@@ -36,18 +37,28 @@ body{
     background-color:  hsl(225, 100%, 98%);
     border-radius: 10px;
     text-align: center;
-    margin-bottom: 10;
 }
 .btns{
     width: 80%;
-    height: 5rem;
+    border: 1px solid red;
+    height: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 5px;
 }
 .btn-blue{
+    padding: 15px;
     background-color: hsl(245, 75%, 52%);
     width: 100%;
     color: white;
+    border-radius: 8px;
+    box-shadow: 3px 10px 10px hsl(223, 47%, 15%);
+}
+.btn-white{
+    border: none;
+    padding: 15px;
+    background-color:white;
+    color: hsl(223, 47%, 23%);
     border-radius: 8px;
 }
